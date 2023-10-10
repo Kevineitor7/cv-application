@@ -1,0 +1,250 @@
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(220,222,230,1) 0%, rgba(197,222,226,1) 100%);
+    font-family: 'Mulish', sans-serif;
+}
+
+#root {
+    max-width: 100%;
+    min-width: 700px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* -- FORM --  */
+
+.flex-form {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+h1 {
+    text-align: center;
+    padding: 8px;
+    font-size: 2.2rem;
+}
+
+.form {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background: whitesmoke;
+}
+
+section hr {
+    border: 1px groove black;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+section h3 {
+    text-align: center;
+}
+
+section div:not(.flex-form){
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0 40px 0;
+}
+
+input, textarea {
+    border: none;
+    font-family: 'Mulish', sans-serif;
+    background: rgb(221, 216, 216);
+}
+
+.languages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(25px, 1fr));
+}
+
+section div label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.box {
+    flex-direction: row;
+    gap: 4px;
+}
+
+.personal div label {
+    width: fit-content;
+}
+
+button {
+    width: 160px;
+    height: 28px;
+    align-self: center;
+    border-radius: 8px;
+    border: none;
+    background: rgb(1, 112, 29);
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: 50ms transform ease-in-out;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+ 
+.flex-form button {
+    align-self: flex-end;
+}
+
+input {
+    padding: 4px 8px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+/* -- CV --  */
+
+.display-cv {
+    width: 45%;
+    min-height: 800px;
+    height: fit-content;
+    display: flex;
+}
+
+.left {
+    background-color: rgb(88, 86, 86);
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.95rem;
+}
+
+.left hr {
+    width: 100%;
+    opacity: 0.8;
+    margin: -12px 0 16px 0;
+}
+
+.left > div {
+    width: 80%;
+}
+
+#photo {
+    width: 180px;
+    height: 160px;
+    margin: 20px 0 12px 0;
+    object-fit: contain;
+}
+
+.left h4 {
+    margin-top: 14px;
+    font-size: 1.1rem;
+}
+
+.cv-contact p {
+    margin-top: -4px;
+    font-size: 0.92rem;
+}
+
+.degrees {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.degree p {
+    margin-top: -8px;
+    font-size: 0.9rem;
+}
+
+.skills-cv ul li {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}
+
+.right {
+    background-color: rgb(250, 245, 245);
+    width: 70%;
+}
+
+.info, .experience-cv, .languages-cv {
+    padding: 0px 16px;
+}
+
+.info h3 {
+    font-size: 2.4rem;
+    letter-spacing: 0.25rem;
+    margin-bottom: -12px;
+}
+
+.ocupation {
+    font-size: 1.3rem;
+}
+
+.about-you {
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+.experience-cv h4, .languages-cv h4 {
+    font-size: 1.4rem;
+}
+
+.right hr {
+    margin: -24px 0 16px 0;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.job p:not(.job-description) {
+    margin: 0;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.job-description {
+    margin-top: 12px;
+    font-size: 0.92rem;
+    line-height: 1.1rem;
+}
+
+.languages-cv {
+    margin-top: -8px;
+}
+
+.languages-cv ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(25px, 1fr));
+}
+
+.languages-cv ul li {
+    font-size: 1rem;
+}
+
+
