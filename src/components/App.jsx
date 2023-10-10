@@ -173,6 +173,11 @@ export default function App() {
   }
 
   function addSkill() {
+    if (skills.length == 6) {
+      setSkill('You reached the limit, stop')
+      return
+    }
+
     if (skill == '') {
       return
     } else {

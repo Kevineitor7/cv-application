@@ -115,7 +115,7 @@ export default function Form({
                 <hr></hr>
                 <div>
                     <div className="flex-form">
-                        <label>Skill: <input className="skill-input" onChange={handleSkill} value={skill} type='text' size='20'/></label>
+                        <label>Skill: (6 max)<input className="skill-input" onChange={handleSkill} value={skill} type='text' size='20'/></label>
                         <button className="add-skill" onClick={addSkill}>Add Skill</button>
                     </div>
                     <label className="languages">Languages:

@@ -40,6 +40,7 @@ h1 {
     flex-direction: column;
     padding: 16px;
     background: whitesmoke;
+    box-shadow: 4px 10px 8px 0px rgb(107, 106, 106);
 }
 
 section hr {
@@ -123,10 +124,14 @@ input {
     min-height: 800px;
     height: fit-content;
     display: flex;
+    position: sticky;
+    top: 10px;
+    right: 10px;
+    box-shadow: 5px 3px 8px 0px black;
 }
 
 .left {
-    background-color: rgb(88, 86, 86);
+    background: linear-gradient(0deg, rgba(43,47,47,1) 0%, rgba(98,95,89,1) 100%);
     width: 30%;
     color: white;
     display: flex;
@@ -181,7 +186,7 @@ input {
 }
 
 .right {
-    background-color: rgb(250, 245, 245);
+    background: linear-gradient(90deg, rgba(175,192,255,1) 0%, rgba(180,213,255,1) 100%);
     width: 70%;
 }
 
