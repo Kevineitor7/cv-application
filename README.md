@@ -1,8 +1,7 @@
-# React + Vite
+# CV Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple CV maker where you input your information to fill a CV in a form and then it display the corresponding input values in a single CV.
 
-Currently, two official plugins are available:
+This project is part of The Odin Project curriculum.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live preview: https://cv-application-kevineitor7.vercel.app/
