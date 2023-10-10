@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import CV from './CV.jsx'
 import Form from './Form.jsx'
-import '/home/kevineitor/repos/cv-application/src/styles/styles.css'
-
+import '/src/styles/styles.css'
 
 export default function App() {
 
