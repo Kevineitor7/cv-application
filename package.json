@@ -2,15 +2,12 @@
   "name": "cv-application",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kevineitor7.github.io/cv-application/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
